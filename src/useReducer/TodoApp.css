@@ -1,0 +1,36 @@
+body{
+    padding: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+p{
+    margin: 0;
+    cursor: pointer;
+}
+button{
+    margin: 0 2rem;
+    
+    width: 5rem;
+    background-color: darkred;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.grilla{
+    display: flex;
+    justify-content: space-between  ;
+}
+.complete{
+    text-decoration: line-through;
+}
